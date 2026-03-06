@@ -1,4 +1,4 @@
-# Lucky Playtime
+# Valentino Playtime
 
 A lightweight and fully configurable playtime system for FiveM
 
