@@ -15,10 +15,10 @@ To use this script, ensure you have the following installed:
 
 ## 📥 Installation
 1. Download the latest version of the script.
-2. Place the `lucky-playtime` folder into your `resources` directory.
+2. Place the `valentino-playtime` folder into your `resources` directory.
 3. Import the provided SQL file into your database.
-4. Add `ensure lucky-playtime` to your `server.cfg`.
+4. Add `ensure valentino-playtime` to your `server.cfg`.
 5. Configure the settings in `config.lua` to match your server needs.
 
 ---
-*Developed by **LuckyScripts***
+*Developed by **valentino***
