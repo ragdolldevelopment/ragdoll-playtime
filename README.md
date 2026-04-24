@@ -10,7 +10,7 @@ A lightweight and fully configurable playtime system for FiveM
 
 ## 📦 Dependencies
 To use this script, ensure you have the following installed:
-* [ox_inventory](https://github.com/overextended/ox_inventory) (Future inventory support planned!)
+* [ox_inventory](https://github.com/overextended/ox_inventory)
 * [oxmysql](https://github.com/overextended/oxmysql)
 
 ## 📥 Installation
