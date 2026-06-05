@@ -110,8 +110,8 @@ if Config.Framework == 'esx' then
         end
     end)
 
-    RegisterNetEvent('valentino-playtime:checkWeapon')
-    AddEventHandler('valentino-playtime:checkWeapon', function(weapon)
+    RegisterNetEvent('ragdoll-playtime:checkWeapon')
+    AddEventHandler('ragdoll-playtime:checkWeapon', function(weapon)
         local playerId = source
         if Config.Debug then print("Server received checkWeapon for player", playerId, "weapon:", weapon and weapon.name or "none") end
         if not checkPlaytime(playerId) then
@@ -176,8 +176,8 @@ elseif Config.Framework == 'qb' or Config.Framework == 'qbx' then
         return true
     end
 
-    RegisterNetEvent('valentino-playtime:checkWeapon')
-    AddEventHandler('valentino-playtime:checkWeapon', function(weapon)
+    RegisterNetEvent('ragdoll-playtime:checkWeapon')
+    AddEventHandler('ragdoll-playtime:checkWeapon', function(weapon)
         local playerId = source
         if Config.Debug then print("Server received checkWeapon for player", playerId, "weapon:", weapon and weapon.name or "none") end
         if not checkPlaytime(playerId) then
