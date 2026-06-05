@@ -1,7 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 "yes"
-author "valentino"
+
+author "lone/Ragdoll Development"
 description "Playtime Script For ESX, QBCore & QBX"
 version "1.0.2"
 
