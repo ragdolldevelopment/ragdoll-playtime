@@ -10,12 +10,12 @@ AddEventHandler('ox_inventory:currentWeapon', function(weapon)
             end
         end
         if Config.Debug then print("Triggering server check for weapon:", weapon.name) end
-        TriggerServerEvent('valentino-playtime:checkWeapon', weapon)
+        TriggerServerEvent('ragdoll-playtime:checkWeapon', weapon)
     end
 end)
 
-RegisterNetEvent('valentino-playtime:removeWeapon')
-AddEventHandler('valentino-playtime:removeWeapon', function()
+RegisterNetEvent('ragdoll-playtime:removeWeapon')
+AddEventHandler('ragdoll-playtime:removeWeapon', function()
     local ped = PlayerPedId()
     RemoveAllPedWeapons(ped, true)
 end)
